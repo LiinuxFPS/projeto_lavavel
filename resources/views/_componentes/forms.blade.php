@@ -19,7 +19,10 @@
                             <input type="text" class="form-control" name="telefone" placeholder="(00)00000-0000">
                         </div>
                         <br>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <a href="{{route('home')}}" class="btn btn-outline-secondary btn-link">
+                             Voltar
+                        </a>
                     </form>                
                 </div>
             </div>
